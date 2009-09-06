@@ -15,7 +15,8 @@ final class SlinkyDemoApplication extends BaseApp {
         exactPath("/") >=> GET >=> webRoot _,
         startsWith("/api") >=> List(
           exactPath("/") >=> GET >=> apiUsage _,
-          startsWith("/register") >=> POST >=> apiRegister _
+          startsWith("/register") >=> POST >=> apiRegister _,
+          startsWith("/registrants") >=> POST >=> apiRegistrants _
         )
     )
 

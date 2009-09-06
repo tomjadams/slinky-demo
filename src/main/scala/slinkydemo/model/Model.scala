@@ -2,6 +2,7 @@ package slinkydemo.model
 
 import com.novocode.squery.combinator.Table
 
+// TODO Add to JSON serialisation.
 final case class Person(id: Int, name: String, organisation: String)
 
 object Person extends Table[(Int, String, String)]("people") {

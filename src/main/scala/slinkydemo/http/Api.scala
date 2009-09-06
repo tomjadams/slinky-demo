@@ -45,6 +45,11 @@ object Api {
     Some(jsonResponse(result._1, result._2))
   }
 
+  def apiRegistrants(request: Request[Stream]): Option[Response[Stream]] = {
+    implicit val r = request
+    Some(jsonResponse(OK, Map('registrants -> List("Slinky Malinky", "Butterball Brown"))))
+  }
+
   // TODO Move these into helpers?
   private def bodyAsJsValue(implicit r: Request[Stream]) = parseJson(bodyAsString(r))
 
