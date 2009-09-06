@@ -2,20 +2,17 @@
 
 Demonstration project of Slinky, Scalaz's HTTP library.
 
-
-# Setup
+## Setup
 
 Pull down dependencies.
 
 $ sbt update
 
-
-# Quick run
+## Quick run
 
 $ sbt run
 
-
-# Deploy
+## Deploy
 
 Start Jetty
 $ sbt jetty-run
@@ -25,4 +22,3 @@ $ sbt ~ prepare-webapp
 
 Stop Jetty
 $ sbt jetty-stop
-
