@@ -8,12 +8,7 @@
         <servlet-class>scalaz.http.servlet.StreamStreamServlet</servlet-class>
         <init-param>
             <param-name>application</param-name>
-            <param-value>com.mogeneration.web.QuickListsApplication</param-value>
-            <!--<param-value>com.scapps.ScappsApplication</param-value>-->
-        </init-param>
-        <init-param>
-            <param-name>scapps-application</param-name>
-            <param-value>com.quicklists.QuickLists</param-value>
+            <param-value>slinkydemo.http.SlinkyDemoApplication</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>

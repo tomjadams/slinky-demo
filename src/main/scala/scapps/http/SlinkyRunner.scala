@@ -7,14 +7,10 @@ object SlinkyRunner {
   def main(args: Array[String]) {
 
     val server: Server = new Server(8081)
-    val handler: ServletContextHandler = new ServletContextHandler(server, "/", ServletContextHandler.SESSIONS |
-            ServletContextHandler.NO_SECURITY)
+    val handler: ServletContextHandler = new ServletContextHandler(server, "/", ServletContextHandler.SESSIONS | ServletContextHandler.NO_SECURITY)
 
     val holder = new ServletHolder(classOf[scalaz.http.servlet.StreamStreamServlet])
     holder.setInitParameter("application", "slinkydemo.http.SlinkyDemoApplication")
-
-    // TODO Improve
-    //holder.setInitParameter("scapps-application", args(0))
 
     handler.addServlet(holder, "/*")
     server.setHandler(handler);
