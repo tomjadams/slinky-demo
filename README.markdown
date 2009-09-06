@@ -4,7 +4,8 @@ Demonstration project of Slinky, Scalaz's HTTP library.
 
 ## Setup
 
-Pull down dependencies.
+1. Install sbt: http://simple-build-tool.googlecode.com/
+1. Pull down dependencies.
 
 <pre>
 $ sbt update
