@@ -50,6 +50,11 @@ object Api {
     Some(jsonResponse(OK, Map('registrants -> List("Slinky Malinky", "Butterball Brown"))))
   }
 
+  def apiSearch(request: Request[Stream]): Option[Response[Stream]] = {
+    implicit val r = request
+    Some(jsonResponse(OK, Map('results -> List("Slinky Malinky", "Butterball Brown"))))
+  }
+
   // TODO Move these into helpers?
   private def bodyAsJsValue(implicit r: Request[Stream]) = parseJson(bodyAsString(r))
 
