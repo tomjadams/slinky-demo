@@ -1,9 +1,15 @@
 package slinkydemo.model
 
 import com.novocode.squery.combinator.Table
+import dispatch.json.Js
 
-// TODO Add to JSON serialisation.
-final case class Person(id: Int, name: String, organisation: String)
+object PersonParser extends Js {
+  val name = 'name ? str
+  val organisation = 'organisation ? str
+}
+
+// TODO Add to JSON serialisation for this type.
+final case class Person(name: String, organisation: String)
 
 object Person extends Table[(Int, String, String)]("people") {
   def id = column[Int]("id", O.AutoInc, O.NotNull)
