@@ -1,7 +1,6 @@
 package slinkydemo.http
 
 import _root_.scapps.{Json, Id}, Json._, Id._
-//import dispatch.json._, Js._
 import scala.xml.Elem
 import scalaz._
 import scalaz.http.response._
@@ -10,11 +9,6 @@ import scalaz.http.scapps.Scapps._
 import scalaz.http.scapps.ViewHelpers.Html._
 import slinkydemo.model._
 import view.View._, view.ViewHelpers._
-
-//object Person extends Js {
-//  val name = 'name ? str
-//  val organisation = 'organisation ? str
-//}
 
 // TODO For HTML snippets see http://technically.us/code/x/weaving-tweed-with-scala-and-json "What to do with case classes if you aren't making a calculator"
 object Api {
