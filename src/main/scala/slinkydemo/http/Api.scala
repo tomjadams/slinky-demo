@@ -1,4 +1,4 @@
-package slinkydemo.http 
+package slinkydemo.http
 
 import _root_.scapps.{Json, Id}, Json._, Id._
 import dispatch.json._, Js._
@@ -22,11 +22,11 @@ object Api {
     implicit val header: Option[Elem] = None
     val body =
       <div>
-        <h1>API</h1>
+        <h1>Slinky Demo API</h1>
         <h2>Register</h2>
         <p>Endpoint:{a("/api/register", "/api/register")}</p>
       </div>
-    Some(htmlResponse(OK, html(title("Usage"), body)))
+    Some(htmlResponse(OK, html(title("API Usage"), body)))
   }
 
   def apiRegister(request: Request[Stream]): Option[Response[Stream]] = {

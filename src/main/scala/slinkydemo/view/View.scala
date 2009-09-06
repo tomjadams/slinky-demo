@@ -1,4 +1,4 @@
-package slinkydemo.view.View
+package slinkydemo.view
 
 // TODO Move these to scalaz
 // TODO Add JSON to ContentTypeResolver. Add these also.

@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/project/plugins" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/etc/lib-docs" />
       <excludeFolder url="file://$MODULE_DIR$/etc/lib-src" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
       <excludeFolder url="file://$MODULE_DIR$/lib_managed" />
       <excludeFolder url="file://$MODULE_DIR$/project/boot" />
       <excludeFolder url="file://$MODULE_DIR$/project/build/lib" />
