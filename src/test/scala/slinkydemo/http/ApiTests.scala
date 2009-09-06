@@ -10,12 +10,12 @@ object ApiTests extends Specification("JSON API Tests") {
 
   lazy val registerEndpoint = "http://localhost:8081/api/register" post JsonMimeType
   lazy val registerPayload = Map(
-      'person-> "Tom Adams",
-      'organisation-> "mogeneration")
+      'name -> "Tom Adams",
+      'organisation -> "mogeneration").jsonString
   lazy val successfulRegistration = Map(
       'description -> "Person registration successful.",
-      'person-> "Tom Adams",
-      'organisation-> "mogeneration").jsonString
+      'name -> "Tom Adams",
+      'organisation -> "mogeneration").jsonString
   lazy val invalidJson = Map('description -> "Person registration failed.", 'error -> "Invalid JSON payload.").jsonString
 
   "A person that wants to register" can {
