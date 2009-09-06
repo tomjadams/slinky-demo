@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>Scalaz</servlet-name>
+        <servlet-class>scalaz.http.servlet.StreamStreamServlet</servlet-class>
+        <init-param>
+            <param-name>application</param-name>
+            <param-value>com.mogeneration.web.QuickListsApplication</param-value>
+            <!--<param-value>com.scapps.ScappsApplication</param-value>-->
+        </init-param>
+        <init-param>
+            <param-name>scapps-application</param-name>
+            <param-value>com.quicklists.QuickLists</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Scalaz</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>
