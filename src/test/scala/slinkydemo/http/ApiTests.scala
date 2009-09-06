@@ -1,17 +1,17 @@
-package scalaz.http
+package slinkydemo.http
 
 import org.specs._
 
 object ApiTests extends Specification("JSON API Tests") {
   import _root_.scapps.{Json, Id}, Json._, Id._
-  import scalaz.http.slinky.view.JsonMimeType
+  import slinkydemo.view.JsonMimeType
   import spec.HttpService._
   import scalaz.http.response._, Status._
 
   lazy val registerEndpoint = "http://localhost:8081/api/register" post JsonMimeType
   lazy val registerPayload = Map(
       'person-> "Tom Adams",
-      'organisation-> "mogeneration"
+      'organisation-> "mogeneration")
   lazy val successfulRegistration = Map(
       'description -> "Person registration successful.",
       'person-> "Tom Adams",
