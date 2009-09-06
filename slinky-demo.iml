@@ -84,6 +84,7 @@
           <root url="file://$MODULE_DIR$/lib_managed/compile" />
           <root url="file://$MODULE_DIR$/lib_managed/provided" />
           <root url="file://$MODULE_DIR$/lib_managed/test" />
+          <root url="file://$MODULE_DIR$/project/plugins/lib_managed" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -94,6 +95,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib_managed/compile" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib_managed/provided" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib_managed/test" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/project/plugins/lib_managed" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -114,6 +116,18 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Scalaz">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/scalaz" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/etc/lib-src/scalaz-4.0-p2-src.jar!/src/main/scala" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/scalaz" recursive="false" />
       </library>
     </orderEntry>
   </component>

@@ -1,4 +1,4 @@
-package slinkydemo..view
+package slinkydemo.view.View
 
 // TODO Move these to scalaz
 // TODO Add JSON to ContentTypeResolver. Add these also.
@@ -10,8 +10,7 @@ sealed trait MimeType {
   val asString: String
 }
 case object JsonMimeType extends MimeType {
-//  override val asString = "application/json"
-  override val asString = "text/plain"
+  override val asString = "application/json"
 }
 case object HtmlMimeType extends MimeType {
     override val asString = "text/html"
