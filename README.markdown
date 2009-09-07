@@ -11,6 +11,24 @@ Demonstration project of Slinky, Scalaz's HTTP library.
 $ sbt update
 </pre>
 
+1. We currently rely on some unreleased code, to get it: 
+
+Get http://github.com/tomjadams/scala-query-migrations/
+
+<pre>
+$ sbt update
+$ sbt publish-local
+</pre>
+
+Get: http://github.com/szeiger/scala-query/tree/scala-2.7
+
+Make sure you're on the scala-2.7 branch
+
+<pre>
+$ sbt update
+$ sbt publish-local
+</pre>
+
 ## Quick run
 
 <pre>
