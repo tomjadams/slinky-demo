@@ -6,20 +6,17 @@ import scalaz.http.response._
 import scalaz.http.request._
 import scalaz.http.scapps.Scapps._
 import scalaz.http.scapps.ViewHelpers.Html._
-import view.View._, view.ViewHelpers._
+import view.{DemoContent, HtmlOut}, HtmlOut._, DemoContent._
+import scapps.util.Slinky._
 
 object Web {
   def webRoot(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    implicit val header: Option[Elem] = None
-    val body =
+    val content =
         <div>
-          <h1>Overview</h1>
-          <p>Slinky is the Scalaz 4 HTTP library.</p>
-          <h1>APIs</h1>
+          <h2>APIs</h2>
           <p>{a("/api/", "API documentation")}</p>
         </div>
-
-    Some(htmlResponse(OK, html(title("Overview"), body)))
+    htmlResponse(OK, DemoContent("Overview", content))
   }
 }

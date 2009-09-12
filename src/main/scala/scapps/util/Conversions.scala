@@ -1,5 +1,9 @@
 package scapps.util
 
+trait OptionW {
+  implicit def TToOption[T](t: T): Option[T] = Some(t)
+}
+
 /**
  * General Java Iterable converters, allowing for comprehensions.
  *

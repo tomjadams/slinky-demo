@@ -7,47 +7,40 @@ import scalaz.http.response._
 import scalaz.http.request._
 import scalaz.http.scapps.Scapps._
 import scalaz.http.scapps.ViewHelpers.Html._
-import slinkydemo.model._
-import view.View._, view.ViewHelpers._
+import scapps.util.Slinky._
+import model._
+import view.{DemoContent, JsonOut, HtmlOut}, DemoContent._, JsonOut._, HtmlOut._
 
-// TODO For HTML snippets see http://technically.us/code/x/weaving-tweed-with-scala-and-json "What to do with case classes if you aren't making a calculator"
 object Api {
   def apiUsage(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    implicit val header: Option[Elem] = None
-    val body =
+    val content =
       <div>
-        <h1>Slinky Demo API</h1>
         <h2>Register</h2>
         <p>Endpoint:{a("/api/register", "/api/register")}</p>
       </div>
-    Some(htmlResponse(OK, html(title("API Usage"), body)))
+    htmlResponse(OK, DemoContent("Conference API", content))
   }
 
   def apiRegister(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    val result = bodyAsJsValue.right.map(payload => {
+    val result = r.bodyAsJsValue.right.map(payload => {
       val PersonParser.name(name) = payload
       val PersonParser.organisation(organisation) = payload
       //    val ins1 = (Users.first ~ Users.last).insert("Homer", Some("Simpson"))
       (OK, Map('description -> "Person registration successful.", 'name -> name, 'organisation -> organisation))
     }).right.getOrElse((BadRequest, Map('description -> "Person registration failed.", 'error -> "Invalid JSON payload.")))
-    Some(jsonResponse(result._1, result._2))
+    jsonResponse(result._1, result._2)
   }
 
   def apiRegistrants(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    Some(jsonResponse(OK, Map('registrants -> List("Slinky Malinky", "Butterball Brown"))))
+    jsonResponse(OK, Map('registrants -> List("Slinky Malinky", "Butterball Brown")))
   }
 
   def apiSearch(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    Some(jsonResponse(OK, Map('results -> List("Slinky Malinky", "Butterball Brown"))))
+    jsonResponse(OK, Map('results -> List("Slinky Malinky", "Butterball Brown")))
   }
-
-  // TODO Move these into helpers?
-  private def bodyAsJsValue(implicit r: Request[Stream]) = parseJson(bodyAsString(r))
-
-  private def bodyAsString(implicit r: Request[Stream]): String = r.body.map(_.toChar).mkString
 }
 

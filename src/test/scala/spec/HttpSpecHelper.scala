@@ -38,13 +38,14 @@ final case class HttpPostMethod(url: String, payload: Option[String], mimeType: 
   import java.io.InputStream
   import spec.SpecificationHelper._
   import scalaz.Scalaz._
+  import scalaz.OptionW._
 
   lazy val conversation = new WebConversation() {
     setExceptionsThrownOnErrorStatus(false)
   }
 
   override def execute = {
-    val request = new PostMethodWebRequest(url, ~(payload), mimeType.getOrElse(WwwFormUrlEncodedMimeType))
+    val request = new PostMethodWebRequest(url, ~(payload), mimeType | WwwFormUrlEncodedMimeType)
     conversation.getResponse(request)
   }
 

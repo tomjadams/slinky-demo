@@ -380,6 +380,735 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
   </component>
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../scalaz">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="https://scalaz.googlecode.com/svn/artifacts">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1240138419623" />
+                          <option name="revision" value="362" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1240138300599" />
+                          <option name="revision" value="357" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/3.5" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237882294061" />
+                          <option name="revision" value="171" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/3.4" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229399692319" />
+                          <option name="revision" value="54" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/3.3" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228551981912" />
+                          <option name="revision" value="3" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/3.0" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228551981912" />
+                          <option name="revision" value="3" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/artifacts/3.2" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="https://scalaz.googlecode.com/svn/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1252647353967" />
+                          <option name="revision" value="834" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/scala-2.8" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1247435096063" />
+                          <option name="revision" value="812" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/modular-deps" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246170321181" />
+                          <option name="revision" value="757" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/database" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1244864846754" />
+                          <option name="revision" value="741" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/http" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242715968308" />
+                          <option name="revision" value="645" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/test2" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1241741420107" />
+                          <option name="revision" value="621" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/test" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1239538576406" />
+                          <option name="revision" value="274" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/branches/HK.scala" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="https://scalaz.googlecode.com/svn/maven">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1247425793042" />
+                          <option name="revision" value="809" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/maven/snapshots" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1244759411037" />
+                          <option name="revision" value="711" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/maven/releases" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="https://scalaz.googlecode.com/svn/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1240138401369" />
+                          <option name="revision" value="361" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1240138357320" />
+                          <option name="revision" value="358" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/3.5" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237882339332" />
+                          <option name="revision" value="172" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/3.4" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229399753704" />
+                          <option name="revision" value="55" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/3.3" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228552771773" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/3.0" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228552771773" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="https://scalaz.googlecode.com/svn/tags/3.2" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://scalaz.googlecode.com/svn/artifacts" />
+                  <option value="https://scalaz.googlecode.com/svn/branches" />
+                  <option value="https://scalaz.googlecode.com/svn/maven" />
+                  <option value="https://scalaz.googlecode.com/svn/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://scalaz.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../scalaz/src/main/scala/org">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="http://scalacheck.googlecode.com/svn/artifacts">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1226763670063" />
+                          <option name="revision" value="365" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.5" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1218575649582" />
+                          <option name="revision" value="329" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.4" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1212439066570" />
+                          <option name="revision" value="288" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.3" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1203542364363" />
+                          <option name="revision" value="227" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.2" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1198280718618" />
+                          <option name="revision" value="172" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.1.1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1197506356976" />
+                          <option name="revision" value="165" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1190976746900" />
+                          <option name="revision" value="126" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.0" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1188944600815" />
+                          <option name="revision" value="111" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/1.0-RC1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1183972319894" />
+                          <option name="revision" value="47" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/artifacts/0.2" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://scalacheck.googlecode.com/svn/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251838491773" />
+                          <option name="revision" value="412" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/branches/HEAD-Scala2.8" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1244229924360" />
+                          <option name="revision" value="391" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/branches/1.5-Scala2.8" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1216500348139" />
+                          <option name="revision" value="308" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/branches/1.3-scSNAPSHOT" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://scalacheck.googlecode.com/svn/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1226762806015" />
+                          <option name="revision" value="364" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.5" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1218565180663" />
+                          <option name="revision" value="328" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.4" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1210524737513" />
+                          <option name="revision" value="271" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.3" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1203538782586" />
+                          <option name="revision" value="226" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.2" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1198280200157" />
+                          <option name="revision" value="171" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.1.1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1197505745826" />
+                          <option name="revision" value="164" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1190976386344" />
+                          <option name="revision" value="125" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.0" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1188943459569" />
+                          <option name="revision" value="109" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/1.0-RC1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1183968833387" />
+                          <option name="revision" value="39" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/0.2" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1180739561025" />
+                          <option name="revision" value="15" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/tags/0.1" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://scalacheck.googlecode.com/svn/wiki">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251924603954" />
+                          <option name="revision" value="418" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/wiki/ChangeHistory.wiki" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251841486602" />
+                          <option name="revision" value="416" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/wiki/UserGuide16.wiki" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1244706359647" />
+                          <option name="revision" value="393" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/wiki/UserGuide.wiki" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1224870441593" />
+                          <option name="revision" value="346" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/wiki/ToDo.wiki" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1210667812245" />
+                          <option name="revision" value="282" />
+                          <option name="url" value="http://scalacheck.googlecode.com/svn/wiki/ScalaCheckArticles.wiki" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://scalacheck.googlecode.com/svn/artifacts" />
+                  <option value="http://scalacheck.googlecode.com/svn/branches" />
+                  <option value="http://scalacheck.googlecode.com/svn/tags" />
+                  <option value="http://scalacheck.googlecode.com/svn/wiki" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://scalacheck.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../scalaz/src/test/java/fj">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="http://functionaljava.googlecode.com/svn/artifacts">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414239350" />
+                          <option name="revision" value="208" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414088217" />
+                          <option name="revision" value="204" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237791623264" />
+                          <option name="revision" value="76" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764346973" />
+                          <option name="revision" value="69" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229379744515" />
+                          <option name="revision" value="26" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228543621006" />
+                          <option name="revision" value="3" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1243713490527" />
+                          <option name="revision" value="157" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/gwt" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/inheritance" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/mapreduce-20081004" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/projecteuler" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/tupleexperiment" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/maven">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237863483992" />
+                          <option name="revision" value="90" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/maven/org" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414223963" />
+                          <option name="revision" value="207" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414158019" />
+                          <option name="revision" value="205" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237801507376" />
+                          <option name="revision" value="84" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764422448" />
+                          <option name="revision" value="70" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229377349406" />
+                          <option name="revision" value="22" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228549168194" />
+                          <option name="revision" value="10" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://functionaljava.googlecode.com/svn/artifacts" />
+                  <option value="http://functionaljava.googlecode.com/svn/branches" />
+                  <option value="http://functionaljava.googlecode.com/svn/maven" />
+                  <option value="http://functionaljava.googlecode.com/svn/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://functionaljava.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../scalaz/src/test/scala/fj">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="http://functionaljava.googlecode.com/svn/artifacts">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414239350" />
+                          <option name="revision" value="208" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414088217" />
+                          <option name="revision" value="204" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237791623264" />
+                          <option name="revision" value="76" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764346973" />
+                          <option name="revision" value="69" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229379744515" />
+                          <option name="revision" value="26" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228543621006" />
+                          <option name="revision" value="3" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1243713490527" />
+                          <option name="revision" value="157" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/gwt" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/inheritance" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/mapreduce-20081004" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/projecteuler" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/tupleexperiment" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/maven">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237863483992" />
+                          <option name="revision" value="90" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/maven/org" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414223963" />
+                          <option name="revision" value="207" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414158019" />
+                          <option name="revision" value="205" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237801507376" />
+                          <option name="revision" value="84" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764422448" />
+                          <option name="revision" value="70" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229377349406" />
+                          <option name="revision" value="22" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228549168194" />
+                          <option name="revision" value="10" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://functionaljava.googlecode.com/svn/artifacts" />
+                  <option value="http://functionaljava.googlecode.com/svn/branches" />
+                  <option value="http://functionaljava.googlecode.com/svn/maven" />
+                  <option value="http://functionaljava.googlecode.com/svn/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://functionaljava.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../scalaz/src/test/scala/fjs">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="http://functionaljava.googlecode.com/svn/artifacts">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414239350" />
+                          <option name="revision" value="208" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414088217" />
+                          <option name="revision" value="204" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237791623264" />
+                          <option name="revision" value="76" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764346973" />
+                          <option name="revision" value="69" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229379744515" />
+                          <option name="revision" value="26" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228543621006" />
+                          <option name="revision" value="3" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/artifacts/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1243713490527" />
+                          <option name="revision" value="157" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/gwt" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/inheritance" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/mapreduce-20081004" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/projecteuler" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228545478508" />
+                          <option name="revision" value="4" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/branches/tupleexperiment" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/maven">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237863483992" />
+                          <option name="revision" value="90" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/maven/org" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://functionaljava.googlecode.com/svn/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414223963" />
+                          <option name="revision" value="207" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/latest" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246414158019" />
+                          <option name="revision" value="205" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.20" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237801507376" />
+                          <option name="revision" value="84" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.19" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237764422448" />
+                          <option name="revision" value="70" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.18" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229377349406" />
+                          <option name="revision" value="22" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.17" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1228549168194" />
+                          <option name="revision" value="10" />
+                          <option name="url" value="http://functionaljava.googlecode.com/svn/tags/2.16" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://functionaljava.googlecode.com/svn/artifacts" />
+                  <option value="http://functionaljava.googlecode.com/svn/branches" />
+                  <option value="http://functionaljava.googlecode.com/svn/maven" />
+                  <option value="http://functionaljava.googlecode.com/svn/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://functionaljava.googlecode.com/svn/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
