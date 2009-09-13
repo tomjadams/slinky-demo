@@ -13,7 +13,7 @@ trait HtmlConvertable {
 
   implicit def ContentToHtmlable(content: HtmlContent): Htmlable = Page(content)
 
-  implicit def ContentToResponse(content: HtmlContent)(implicit request: Request[Stream]): Response[Stream] = htmlResponse(OK, Page(content))
+  implicit def ContentToResponse(content: HtmlContent)(implicit request: Request[Stream]): Response[Stream] = htmlResponse(OK, ContentToHtmlable(content))
 
   implicit def ContentToOptionResponse(content: HtmlContent)(implicit request: Request[Stream]): Option[Response[Stream]] = Some(ContentToResponse(content))
 }

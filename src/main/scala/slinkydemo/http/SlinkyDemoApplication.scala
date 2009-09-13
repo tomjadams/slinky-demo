@@ -20,7 +20,7 @@ final class SlinkyDemoApplication extends BaseApp {
           startsWith("/registrants") >=> GET >=> apiRegistrants _,
           startsWith("/search") >=> GET >=> apiSearch _
         )
-    )
+      )
 
   def route(implicit request: Request[Stream], servletRequest: HttpServletRequest) = routes(request)
 }

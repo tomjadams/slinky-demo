@@ -13,8 +13,6 @@ import view.{ConferenceContent, JsonOut, HtmlOut}, ConferenceContent._, JsonOut.
 
 object Api {
   def apiUsage(request: Request[Stream]): Option[Response[Stream]] = {
-    import _root_.slinkydemo.view.ConferenceContent
-
     implicit val r = request
     val content =
       <div>
@@ -26,12 +24,12 @@ object Api {
 
   def apiRegister(request: Request[Stream]): Option[Response[Stream]] = {
     implicit val r = request
-    val result = r.bodyAsJsValue.right.map(payload => {
+    val parsed = r.bodyAsJsValue.right.map(payload => {
       val PersonParser.name(name) = payload
       val PersonParser.organisation(organisation) = payload
-      //    val ins1 = (Users.first ~ Users.last).insert("Homer", Some("Simpson"))
       (OK, Map('description -> "Person registration successful.", 'name -> name, 'organisation -> organisation))
-    }).right.getOrElse((BadRequest, Map('description -> "Person registration failed.", 'error -> "Invalid JSON payload.")))
+    })
+    val result = parsed.right.getOrElse((BadRequest, Map('description -> "Person registration failed.", 'error -> "Invalid JSON payload.")))
     jsonResponse(result._1, result._2)
   }
 

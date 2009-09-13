@@ -14,8 +14,13 @@ object Web {
     implicit val r = request
     val content =
         <div>
-          <h2>APIs</h2>
-          <p>{a("/api/", "API documentation")}</p>
+          <h2>Registration</h2>
+          <p>Register for the conference below.</p>
+          <form method="post" action="/register">
+            <div><input type="text" name="name" placeholder="Enter your name..."/></div>
+            <div><input type="text" name="organisation" placeholder="Enter your organisation..."/></div>
+            <div><input type="submit" value="Register"/></div>
+          </form>
         </div>
     ConferenceContent("Overview", content)
   }
