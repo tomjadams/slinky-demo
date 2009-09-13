@@ -3,12 +3,11 @@ package slinkydemo.view
 import _root_.scapps.{Json, Id}, Json._, Id._
 import scalaz.http.request._
 
-trait JsonRquestImplicit {
+trait JsonRquestConvertable {
   implicit def RequestToJsonRequest(r: Request[Stream]) = JsonRequest(r)
 }
 
-final case class JsonRequest(request: Request[Stream]) extends JsonRquestImplicit {
-
+final case class JsonRequest(request: Request[Stream]) extends JsonRquestConvertable {
   def bodyAsJsValue = parseJson(bodyAsString)
 
   private def bodyAsString = request.body.map(_.toChar).mkString

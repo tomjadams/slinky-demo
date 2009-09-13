@@ -1,5 +1,5 @@
 package scapps.util
 
-import slinkydemo.view.JsonRquestImplicit
+import slinkydemo.view._
 
-object Slinky extends OptionW with JsonRquestImplicit
+object Slinky extends OptionW with HtmlConvertable with JsonRquestConvertable 

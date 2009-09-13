@@ -9,17 +9,19 @@ import scalaz.http.scapps.Scapps._
 import scalaz.http.scapps.ViewHelpers.Html._
 import scapps.util.Slinky._
 import model._
-import view.{DemoContent, JsonOut, HtmlOut}, DemoContent._, JsonOut._, HtmlOut._
+import view.{ConferenceContent, JsonOut, HtmlOut}, ConferenceContent._, JsonOut._, HtmlOut._
 
 object Api {
   def apiUsage(request: Request[Stream]): Option[Response[Stream]] = {
+    import _root_.slinkydemo.view.ConferenceContent
+
     implicit val r = request
     val content =
       <div>
         <h2>Register</h2>
         <p>Endpoint:{a("/api/register", "/api/register")}</p>
       </div>
-    htmlResponse(OK, DemoContent("Conference API", content))
+    ConferenceContent("Conference API", content)
   }
 
   def apiRegister(request: Request[Stream]): Option[Response[Stream]] = {
